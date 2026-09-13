@@ -1,0 +1,26 @@
+# Secrets — NEVER commit these
+.env
+*.env
+.env.local
+
+# Dependencies
+node_modules/
+
+# Runtime data
+data/
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Test artifacts
+aurex.pid
+aurex-out.log
+aurex-err.log
+server-run.log
